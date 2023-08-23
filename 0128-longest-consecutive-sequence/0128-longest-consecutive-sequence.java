@@ -9,8 +9,6 @@ for (int v : nums) {
      int longest=0;
      if(nums.length==0){
          return 0;
-     }else if(nums.length==1){
-         return 1;
      }
 int priv = Collections.min(s);
  System.out.println(priv);
