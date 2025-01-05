@@ -17,6 +17,6 @@ class Solution:
                 stack.append(stack.pop()* stack.pop())
             else:
                 stack.append(int(char))
-        return stack[0]
+        return stack.pop()
         
         
