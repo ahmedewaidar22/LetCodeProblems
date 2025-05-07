@@ -1,10 +1,12 @@
-class Solution(object):
-    def containsDuplicate(self, nums):
-        hashset = set()
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        dic=set()
         for num in nums:
-            if num in hashset:
+            if num in dic:
                 return True
-            hashset.add(num)
+            dic.add(num)
         return False
-    
+
+
+
         
