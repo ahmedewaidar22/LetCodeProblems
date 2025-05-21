@@ -6,7 +6,6 @@ class Solution:
             high=min(height[l],height[r])
             value= high *(r-l)
             maxval=max(maxval,value)
-            # print(maxval)
             if height[l]<height[r]:
                 l+=1
             else:
